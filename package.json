@@ -1,0 +1,21 @@
+﻿{
+    "name":  "writegod",
+    "version":  "0.1.0",
+    "description":  "小说知识引擎 - 知识图谱驱动的创作辅助平台",
+    "scripts":  {
+                    "setup":  "npm install \u0026\u0026 cd frontend \u0026\u0026 npm install",
+                    "setup:backend":  "cd backend \u0026\u0026 uv sync",
+                    "setup:all":  "npm run setup \u0026\u0026 npm run setup:backend",
+                    "dev":  "concurrently --kill-others -n \"backend,frontend\" -c \"green,cyan\" \"npm run backend\" \"npm run frontend\"",
+                    "backend":  "cd backend \u0026\u0026 python3 run.py",
+                    "frontend":  "cd frontend \u0026\u0026 npm run dev",
+                    "build":  "cd frontend \u0026\u0026 npm run build"
+                },
+    "devDependencies":  {
+                            "concurrently":  "^9.1.2"
+                        },
+    "engines":  {
+                    "node":  "\u003e=18.0.0"
+                },
+    "license":  "AGPL-3.0"
+}
