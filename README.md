@@ -158,7 +158,7 @@ npm run frontend  # 仅启动前端
 
 ## 参考
 
-基于 [MiroFish-Refactor-zh](https://github.com/M-YiXi/MiroFish-Refactor-zh) 改造，保留了核心的图谱引擎和节点图界面，去掉了模拟/预测功能，加入针对小说创作场景的专属能力。
+基于 [MiroFish-Refactor-zh](https://github.com/M-YiXi/MiroFish-Refactor-zh) 改造，（另外要感谢参考项目的原始项目）保留了核心的图谱引擎和节点图界面，加入针对小说创作场景的专属能力。去除了大部分无用功能。并且重构了大多数的前端与后端。
 
 ## License
 
