@@ -1,16 +1,39 @@
 # 小说知识引擎
 
-   这是一个知识图谱驱动的小说创作辅助平台
-支持百万量级文字，超高并发数，需要搭配 本地向量模型/本地大语言模型 以及 向量库 进行使用
-将你的素材和小说文本转化为可视化的概念网络，帮你理清人物关系、追踪伏笔、检测逻辑漏洞、与角色对话。
+<p align="center" style="font-size: 1.1em; line-height: 1.8; color: #555; max-width: 780px; margin: 1.5em auto;">
+  知识图谱驱动的小说创作辅助平台。<br>
+  支持百万量级文字，超高并发数，可搭配本地向量模型/本地大语言模型以及向量库进行使用。<br>
+  将你的素材和小说文本转化为可视化的概念网络，帮你理清人物关系、追踪伏笔、检测逻辑漏洞、与角色对话。
+</p>
 
+<br>
 
-![首页入口截图](截图/%E6%88%AA%E5%B1%8F2026-07-23%2011.52.17.png)
+<!-- 首页截图（大图） -->
+<p align="center">
+  <img src="截图/%E6%88%AA%E5%B1%8F2026-07-23%2014.31.42.png" alt="writeGOD 首页" width="90%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);">
+  <br>
+  <em>首页 — 双模式入口：素材大纲与小说推演</em>
+</p>
 
-*运行截图*
+<br>
 
-![图谱可视化截图](截图/%E6%88%AA%E5%B1%8F2026-07-23%2012.58.12.png)
-*工作台 — D3.js 力导向知识图谱可视化与智能分析面板*
+<!-- 两张运行截图并列（小图） -->
+<table align="center" style="border: none; border-collapse: collapse; width: 90%;">
+  <tr style="border: none;">
+    <td width="50%" style="border: none; padding: 8px; text-align: center;">
+      <img src="截图/%E6%88%AA%E5%B1%8F2026-07-23%2011.52.17.png" alt="首页入口截图" width="100%" style="border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+      <br>
+      <em>双模式选择 — 素材大纲与小说推演</em>
+    </td>
+    <td width="50%" style="border: none; padding: 8px; text-align: center;">
+      <img src="截图/%E6%88%AA%E5%B1%8F2026-07-23%2012.58.12.png" alt="图谱可视化截图" width="100%" style="border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+      <br>
+      <em>工作台 — D3.js 力导向知识图谱可视化与智能分析面板</em>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ## 功能
 
